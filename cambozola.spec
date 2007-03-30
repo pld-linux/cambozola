@@ -29,8 +29,6 @@ wyświetlą tylko pierwszy obrazek.
 %prep
 %setup -q
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -D dist/cambozola.jar $RPM_BUILD_ROOT%{_datadir}/%{name}/%{name}.jar
@@ -40,4 +38,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/%{name}/
+%{_datadir}/%{name}
