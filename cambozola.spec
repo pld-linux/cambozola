@@ -9,6 +9,7 @@ Group:		Libraries
 Source0:	http://www.charliemouse.com/code/cambozola/%{name}-%{version}.tar.gz
 # Source0-md5:	e4fac8b6ee94c9075b14bb95be4f860b
 URL:		http://www.charliemouse.com/code/cambozola/
+Obsoletes:	zm-cambozola
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
